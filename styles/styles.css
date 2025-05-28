@@ -281,5 +281,7 @@ main::after{right: 0;}
 }
 
 h3{
-  background-color: #fcebec;
+  background: linear-gradient(to right, #831f2b, transparent);
+  color: white;
+  padding: 5px;
 }

@@ -32,6 +32,6 @@ footer.footer-wrapper::before, footer.footer-wrapper::after {
   border-top: 8px solid #a7a4a4;
   background-color: silver;
   border-radius: 0 0 50px 50px;
-  box-shadow: 0 0 20px 1px #000000b0 inset;
+  box-shadow: 0 0 20px 1px #000000b0 inset, 0 0 6px 2px gray;
 }
 

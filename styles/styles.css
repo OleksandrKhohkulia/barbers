@@ -258,6 +258,7 @@ main .section.highlight {
 
 .candycane::before, .candycane::after{
   position: fixed;
+  content: "";
   top: 0;
   height: 100%;
   width: 4vw;

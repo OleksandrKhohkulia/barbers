@@ -282,3 +282,8 @@ header nav .nav-tools {
 }
 
 .nav-wrapper::after{right: 0;}
+
+header form{
+  display: flex;
+  align-items: center;
+}

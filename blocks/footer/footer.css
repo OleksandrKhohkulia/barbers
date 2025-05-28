@@ -38,13 +38,17 @@ footer.footer-wrapper::before, footer.footer-wrapper::after {
 footer.footer-wrapper::before {left: 0;}
 footer.footer-wrapper::after{right: 0;}
 
+footer .cards ul{
+  padding-left: 10px;
+}
+
 footer .cards li {
   background-color: transparent;
   color: white;
   border: none;
-  list-style: none;
-  
+  list-style: none
 }
+
 footer .cards li>a {
   color: white;
 }

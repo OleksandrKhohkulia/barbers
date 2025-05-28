@@ -264,7 +264,17 @@ main::before, main::after{
   width: 4vw;
   background-image: url(https://barbers.nebraska.gov/images/rwb-candycane-texture.png);
   box-shadow: 0 0 16px black, 0 0 16px 5px #0000008c inset;
+  animation: spin 10s linear infinite;
 }
 
 main::before{left: 0;}
 main::after{right: 0;}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

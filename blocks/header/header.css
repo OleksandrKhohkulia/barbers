@@ -267,3 +267,17 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+.nav-wrapper::before, .nav-wrapper::after {
+  content: "";
+  position: fixed;
+  top: 35px;
+  height: 30px;
+  width: 3vw;
+  border-bottom: 8px solid #a7a4a4;
+  background-color: silver;
+  border-radius: 50px 50px 0 0;
+  box-shadow: 0 0 20px 1px #000000b0 inset;
+}
+
+.nav-wrapper::after{right: 0;}

@@ -2,7 +2,6 @@ footer {
   background-color: #831f2b;
   font-size: var(--body-font-size-xs);
   position: relative;
-  z-index: 1;
   /* display: flex; */
   justify-content: space-between;
 }
@@ -38,3 +37,9 @@ footer.footer-wrapper::before, footer.footer-wrapper::after {
 
 footer.footer-wrapper::before {left: 0;}
 footer.footer-wrapper::after{right: 0;}
+
+footer .cards li {
+  background-color: transparent;
+  color: white;
+  border: none;
+}

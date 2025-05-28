@@ -21,6 +21,7 @@ footer .footer p {
 
 
 footer::before, footer::after{
+  display: block;
   content: "";
   position: relative;
   top:0;

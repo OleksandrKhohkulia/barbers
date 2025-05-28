@@ -256,7 +256,7 @@ main .section.highlight {
   padding: 40px 0;
 }
 
-body::before, body::after{
+.candycane::before, .candycane::after{
   position: fixed;
   top: 0;
   height: 100%;
@@ -265,5 +265,5 @@ body::before, body::after{
   box-shadow: 0 0 16px black, 0 0 16px 5px #0000008c inset;
 }
 
-body::before{left: 0;}
-body::after{right: 0;}
+.candycane::before{left: 0;}
+.candycane::after{right: 0;}

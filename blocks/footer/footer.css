@@ -49,6 +49,6 @@ footer .cards li {
   list-style: none
 }
 
-footer .cards li>a {
-  color: white;
+footer .cards a {
+  color: #fae5bc;
 }

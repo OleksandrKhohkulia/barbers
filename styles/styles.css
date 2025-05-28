@@ -262,7 +262,7 @@ main::before, main::after{
   content: "";
   top: -200px;
   height: 200%;
-  width: 4vw;
+  width: 3vw;
   background-image: url(https://barbers.nebraska.gov/images/rwb-candycane-texture.png);
   box-shadow: 0 0 16px black, 0 0 16px 5px #0000008c inset;
   animation: spin 10s linear infinite;

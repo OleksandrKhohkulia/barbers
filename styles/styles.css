@@ -256,7 +256,7 @@ main .section.highlight {
   padding: 40px 0;
 }
 
-.candycane::before, .candycane::after{
+main::before, main::after{
   position: fixed;
   content: "";
   top: 0;
@@ -266,5 +266,5 @@ main .section.highlight {
   box-shadow: 0 0 16px black, 0 0 16px 5px #0000008c inset;
 }
 
-.candycane::before{left: 0;}
-.candycane::after{right: 0;}
+main::before{left: 0;}
+main::after{right: 0;}

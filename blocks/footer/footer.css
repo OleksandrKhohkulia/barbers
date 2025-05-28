@@ -18,3 +18,18 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+
+
+footer::before, footer::after{
+  content: "";
+  position: fixed;
+  bottom: 35px;
+  height: 30px;
+  width: 3vw;
+  border-top: 8px solid #a7a4a4;
+  background-color: silver;
+  border-radius: 0px 0px 50px 50px;
+  box-shadow: 0 0 20px 1px #000000b0 inset;
+}
+
+footer::after{right: 0;}

@@ -3,7 +3,7 @@ footer {
   font-size: var(--body-font-size-xs);
   position: relative;
   z-index: 1;
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
 }
 
@@ -29,6 +29,7 @@ footer.footer-wrapper::before, footer.footer-wrapper::after {
   position: absolute;
   height: 30px;
   width: 3vw;
+  top: 0;
   border-top: 8px solid #a7a4a4;
   background-color: silver;
   border-radius: 0 0 50px 50px;

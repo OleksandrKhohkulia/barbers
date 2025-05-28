@@ -42,4 +42,9 @@ footer .cards li {
   background-color: transparent;
   color: white;
   border: none;
+  list-style: none;
+  
+}
+footer .cards li>a {
+  color: white;
 }

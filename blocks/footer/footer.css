@@ -35,4 +35,5 @@ footer.footer-wrapper::before, footer.footer-wrapper::after {
   box-shadow: 0 0 20px 1px #000000b0 inset, 0 0 10px 1px #000000;
 }
 
+footer.footer-wrapper::before {left: 0;}
 footer.footer-wrapper::after{right: 0;}

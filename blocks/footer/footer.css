@@ -1,6 +1,7 @@
 footer {
   background-color: var(--light-color);
   font-size: var(--body-font-size-xs);
+  z-index: 1;
 }
 
 footer .footer > div {
@@ -19,18 +20,3 @@ footer .footer p {
   }
 }
 
-
-footer::before, footer::after{
-  display: block;
-  content: "";
-  position: relative;
-  top:0;
-  height: 30px;
-  width: 3vw;
-  border-top: 8px solid #a7a4a4;
-  background-color: silver;
-  border-radius: 0px 0px 50px 50px;
-  box-shadow: 0 0 20px 1px #000000b0 inset;
-}
-
-footer::after{right: 0;}

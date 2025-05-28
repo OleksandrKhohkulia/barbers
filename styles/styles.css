@@ -272,9 +272,9 @@ main::after{right: 0;}
 
 @keyframes spin {
   from {
-    transform: rotateZ(0deg);
+    transform: rotateX(0deg);
   }
   to {
-    transform: rotateZ(360deg);
+    transform: rotateX(360deg);
   }
 }

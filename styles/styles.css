@@ -259,7 +259,6 @@ main .section.highlight {
 
 main::before, main::after{
   position: fixed;
-  content: "";
   top: -200px;
   height: 200%;
   width: 3vw;
@@ -284,4 +283,10 @@ h3{
   background: linear-gradient(to right, #831f2b, transparent);
   color: white;
   padding: 5px;
+}
+
+@media (width >= 900px) {
+  main::before, main::after{
+    content: "";
+  }
 }

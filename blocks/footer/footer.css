@@ -23,7 +23,6 @@ footer .footer p {
 }
 
 footer.footer-wrapper::before, footer.footer-wrapper::after {
-  content: "";
   display: block;
   position: absolute;
   height: 30px;
@@ -51,4 +50,9 @@ footer .cards li {
 
 footer .cards a {
   color: #fae5bc;
+}
+@media (width >= 900px) {
+  footer.footer-wrapper::before, footer.footer-wrapper::after {
+    content: "";
+  }
 }

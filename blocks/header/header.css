@@ -270,7 +270,7 @@ header nav .nav-tools {
 }
 
 .nav-wrapper::before, .nav-wrapper::after {
-  content: "";
+  /* content: ""; */
   position: fixed;
   top: 35px;
   height: 30px;
@@ -291,4 +291,10 @@ header form{
 .submit-wrapper> button{
   border-radius: 0;
   padding: 0 !important;
+}
+
+@media (width >= 900px) {
+  .nav-wrapper::before, .nav-wrapper::after {
+    content: "";
+  }
 }

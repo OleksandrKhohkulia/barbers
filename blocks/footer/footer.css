@@ -43,9 +43,9 @@ footer .cards ul{
 }
 
 footer .cards li {
-  background-color: transparent;
+  background-color: transparent !important;
   color: white;
-  border: none;
+  border: none !important;
   list-style: none
 }
 

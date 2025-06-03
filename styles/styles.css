@@ -259,8 +259,8 @@ main .section.highlight {
 
 body::before, body::after{
   position: fixed;
-  top: -200px;
-  height: 100%;
+  top: 0;
+  height: 200%;
   width: 3vw;
   background-image: url(https://barbers.nebraska.gov/images/rwb-candycane-texture.png);
   /* box-shadow: 0 0 16px black, 0 0 16px 5px #0000008c inset; */

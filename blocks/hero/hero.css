@@ -23,7 +23,7 @@
 }
 
 
-.hero >div:nth-of-type(3) >*{
+.hero >div:nth-of-type(3)>div >*{
   margin: unset;
 }
 

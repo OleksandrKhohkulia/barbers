@@ -22,20 +22,6 @@ footer .footer p {
   }
 }
 
-footer.footer-wrapper::before, footer.footer-wrapper::after {
-  display: block;
-  position: absolute;
-  height: 30px;
-  width: 3vw;
-  top: 0;
-  border-top: 8px solid #a7a4a4;
-  background-color: silver;
-  border-radius: 0 0 50px 50px;
-  box-shadow: 0 0 20px 1px #000000b0 inset, 0 0 10px 1px #000000;
-}
-
-footer.footer-wrapper::before {left: 0;}
-footer.footer-wrapper::after{right: 0;}
 
 footer .cards ul{
   padding-left: 10px;
@@ -50,9 +36,4 @@ footer .cards li {
 
 footer .cards{
   color: #fae5bc;
-}
-@media (width >= 900px) {
-  footer.footer-wrapper::before, footer.footer-wrapper::after {
-    content: "";
-  }
 }

@@ -48,7 +48,7 @@ footer .cards li {
   list-style: none
 }
 
-footer .cards a {
+footer .cards{
   color: #fae5bc;
 }
 @media (width >= 900px) {

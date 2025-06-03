@@ -258,7 +258,7 @@ main .section.highlight {
 }
 
 body::before, body::after{
-  position: fixed;
+  position: absolute;
   top: -200px;
   height: 100%;
   width: 3vw;
@@ -267,8 +267,8 @@ body::before, body::after{
 
 }
 
-main::before{left: 0;}
-main::after{right: 0;}
+body::before{left: 0;}
+body::after{right: 0;}
 
 
 h3{

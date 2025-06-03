@@ -16,8 +16,8 @@
   --light-color: #f8f8f8;
   --dark-color: #000000;
   --text-color: #000000;
-  --link-color: #fb3b3b;
-  --link-hover-color: #cf1d1d;
+  --link-color: blue;
+  --link-hover-color: rgb(71 106 114);
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -162,6 +162,7 @@ a:any-link {
 
 a:hover {
   color: var(--link-hover-color);
+  background-color: #000000;
   text-decoration: underline;
 }
 

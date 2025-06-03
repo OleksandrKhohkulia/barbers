@@ -22,6 +22,11 @@
   justify-content: space-between;
 }
 
+
+.hero >div:nth-of-type(3) >*{
+  margin: auto;
+}
+
 .hero hr{
   width: 40%;
   float: left;

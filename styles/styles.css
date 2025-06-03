@@ -303,4 +303,6 @@ h3, .schools h4 {
 .pdf .button-container>a {
   background-color: rgb(247 215 218);
   width: 100%;
+  text-align: left;
+  color: blue;
 }

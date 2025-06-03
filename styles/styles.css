@@ -300,10 +300,7 @@ h3, .schools h4 {
   justify-content: center;
 }
 
-.pdf .button-container{
-  width: 100%;
-}
-
 .pdf .button-container>a {
   background-color: rgb(247 215 218);
+  width: 100%;
 }

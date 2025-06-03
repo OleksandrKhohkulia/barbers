@@ -258,7 +258,7 @@ main .section.highlight {
 }
 
 body::before, body::after{
-  position: absolute;
+  position: fixed;
   top: -200px;
   height: 100%;
   width: 3vw;

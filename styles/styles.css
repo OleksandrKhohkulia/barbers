@@ -285,6 +285,12 @@ h3{
 .payments{
   text-align: center;
 }
+.payments img{
+  max-width: 308px;
+  background-color: var(--redtint-070);
+  border: .25rem solid var(--redshade-020);
+}
+
 
 .payments h3{
   text-align: left;

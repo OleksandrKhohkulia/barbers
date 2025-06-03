@@ -278,7 +278,7 @@ h3{
 }
 
 @media (width >= 900px) {
-  main::before, main::after{
+  body::before, body::after{
     content: "";
   }
 }

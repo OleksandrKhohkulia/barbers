@@ -31,5 +31,10 @@
 
 .board-members ul{
   grid-template-columns: repeat(1, minmax(257px, 1fr));
-  justify-items: center;
+  max-width: 300px;
+}
+.board-members{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -12,7 +12,7 @@
   background-color: var(--background-color);    
   border: 0;
   border-left: 5px solid;
-  border-image: linear-gradient(#ffffff, #ff0000, #ffffff) 1;
+  border-image: linear-gradient(to right,#ffffff, #ff0000, #ffffff) 50;
 }
 
 .cards .cards-card-body {

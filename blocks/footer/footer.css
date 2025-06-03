@@ -34,6 +34,6 @@ footer .cards li {
   list-style: none
 }
 
-footer .cards{
+footer .cards *{
   color: #fae5bc;
 }

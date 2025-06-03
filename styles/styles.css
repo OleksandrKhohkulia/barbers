@@ -291,7 +291,11 @@ h3{
   border: .25rem solid rgb(176,42,55);
 }
 
-
 .payments h3{
   text-align: left;
+}
+
+.payments .columns-img-col{
+  display: flex;
+  justify-content: center;
 }

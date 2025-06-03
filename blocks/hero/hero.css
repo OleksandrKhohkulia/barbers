@@ -17,7 +17,7 @@
   color: var(--background-color);
 }
 
-.hero:nth-last-child() {
+.hero >div:nth-of-type(3) {
   display: flex;
   justify-content: space-between;
 }

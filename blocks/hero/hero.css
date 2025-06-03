@@ -47,3 +47,8 @@
     padding: 40px 150px;
   }
 }
+
+.hero.block a:any-link {
+  color: rgb(255, 250, 240);
+  text-decoration: underline;
+}

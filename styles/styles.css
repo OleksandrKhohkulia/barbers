@@ -287,8 +287,8 @@ h3{
 }
 .payments img{
   max-width: 308px;
-  background-color: var(--redtint-070);
-  border: .25rem solid var(--redshade-020);
+  background-color: rgb(245,194,199);
+  border: .25rem solid rgb(176,42,55);
 }
 
 

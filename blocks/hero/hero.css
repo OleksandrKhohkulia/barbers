@@ -1,7 +1,7 @@
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
-  background: #ae28396e;
+  background: rgb(176,42,55);
 }
 
 .hero {
@@ -10,7 +10,7 @@
   min-height: 300px;
 }
 
-.hero h1 {
+.hero h1 .hero p{
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;

@@ -257,27 +257,19 @@ main .section.highlight {
   padding: 40px 0;
 }
 
-main::before, main::after{
-  position: fixed;
+body::before, body::after{
+  position: absolute;
   top: -200px;
-  height: 200%;
+  height: 100%;
   width: 3vw;
   background-image: url(https://barbers.nebraska.gov/images/rwb-candycane-texture.png);
   box-shadow: 0 0 16px black, 0 0 16px 5px #0000008c inset;
-  animation: spin 10s linear infinite;
+
 }
 
 main::before{left: 0;}
 main::after{right: 0;}
 
-@keyframes spin {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(255px)
-  }
-}
 
 h3{
   background: linear-gradient(to right, #831f2b, transparent);

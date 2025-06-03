@@ -270,15 +270,12 @@ header nav .nav-tools {
 }
 
 .nav-wrapper::before, .nav-wrapper::after {
-  /* content: ""; */
-  position: fixed;
-  top: 35px;
-  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   width: 3vw;
-  border-bottom: 8px solid #a7a4a4;
-  background-color: silver;
-  border-radius: 50px 50px 0 0;
-  box-shadow: 0 0 20px 1px #000000b0 inset;
+  background: blue;
 }
 
 .nav-wrapper::after{right: 0;}

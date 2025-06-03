@@ -10,11 +10,17 @@
   min-height: 300px;
 }
 
-.hero h1, .hero p{
+.hero >div >div> *{
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   color: var(--background-color);
+}
+
+.hero hr{
+  width: 300px;
+  float: left;
+
 }
 
 .hero picture {

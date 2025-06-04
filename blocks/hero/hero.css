@@ -17,7 +17,14 @@
 
 .hero >div:nth-of-type(3) {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+@media (width >= 900px) {
+  .hero >div:nth-of-type(3)  {
+    flex-direction: row;
+  }
 }
 
 

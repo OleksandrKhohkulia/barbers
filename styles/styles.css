@@ -263,7 +263,7 @@ body::before, body::after{
   position: fixed;
   top: 0;
   height: 200%;
-  width: 4vw;
+  width: 64px;
   background-image: url(https://barbers.nebraska.gov/images/rwb-candycane-texture.png);
 }
 

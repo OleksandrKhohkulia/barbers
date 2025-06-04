@@ -143,13 +143,18 @@ header .nav-brand {
   grid-area: brand;
   /* flex-basis: 128px; */
   height: 100%;
-  background-color: blue;
   padding: 0 5px;
   display: flex;
   align-items: center;
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
+}
+
+@media (width >= 900px) {
+  .nav-brand{
+    background-color: blue;
+  }
 }
 
 header nav .nav-brand img {
